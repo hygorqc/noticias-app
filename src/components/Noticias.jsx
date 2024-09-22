@@ -102,7 +102,9 @@ function Noticias() {
           </ul>
 
           <div className={'btn-acoes'}>
-            <button onClick={() => (page !== 1 ? setPage(1) : '')}>
+            <button
+              onClick={() => (page !== 1 ? setPage(1) : window.scroll(0, 0))}
+            >
               Início{' '}
             </button>
             <button disabled={page == 1 ? true : false} onClick={voltarPage}>

@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação em React que exibe notícias utilizando a API do IBGE. Foi construído para fins de práticas e estudos do ReactJS, a ideia é exibir as noticias e o usuário escolher se deseja visualizar em modo escuro ou claro.
 
+[Acesse o site clicando aqui](https://noticias-app-inky.vercel.app/) ou pelo link: `https://noticias-app-inky.vercel.app/`
+
 ## Funcionalidades
 
 - **Carregamento de Notícias**: As notícias são carregadas da API do IBGE.
